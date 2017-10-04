@@ -1,3 +1,4 @@
 #!/bin/bash
 
-exec bin/scripts/launch_dedicated_server.sh
+exec ./bin/dontstarve_dedicated_server_nullrenderer
+
