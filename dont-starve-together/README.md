@@ -1,11 +1,14 @@
+# Don't Starve Together
+Multiplayer survival game
 
-# Work in progress
+## Getting Started
+Before you build the container for this server, you first must obtain an authentication token from a desktop copy of the game.
 
-Don't starve together is a work in progress. 
+1. Launch `Don't Starve Together` on your computer.
+2. At the main menu, press `` ` `` to bring up the console.
+3. Run the following command: `TheNet:GenerateClusterToken()`
+4. Copy the generated token file `cluster_token.txt` into this directory.
 
-It is available here as a template - if you want to use it,
-you will need to fix it first.
-
-Known bugs:
-* It needs xvfb installed and configured (I think)
-* Does not have any configuration beyond defaults
+* On Windows: `/My Documents/Klei/DoNotStarveTogether/cluster_token.txt`
+* On Linux: `~/.klei/DoNotStarveTogether/cluster_token.txt`
+* On Mac OS X: `~/Documents/Klei/DoNotStarveTogether/cluster_token.txt`
